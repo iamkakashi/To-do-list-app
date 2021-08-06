@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>To Do List</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="box" id="heading">
+    <h1><%= din %></h1>
+  </div>
+  <div class="box">
+
+    <% for (var i=0;i<newTask.length;i++) { %>
+    <div class="item">
+      <input type="checkbox">
+      <p><%= newTask[i] %></p>
+    </div>
+    <% } %>
+    <form class="item" action="/" method="post">
+      <input type="text" name="task" placeholder="Add a New Task" autocomplete="off">
+      <button type="submit" name="submit">+</button>
+    </form>
+  </div>
+  <footer>
+    <p>Made by Naman Garg</p>
+  </footer>
+
+</body>
+
+</html>
