@@ -13,15 +13,19 @@
   </div>
   <div class="box">
 
-    <% for (var i=0;i<newTask.length;i++) { %>
-    <div class="item">
-      <input type="checkbox">
-      <p><%= newTask[i] %></p>
-    </div>
-    <% } %>
+    <% newTask.forEach(function(ele){ %>
+    <form action="/delete" method="post">
+      <div class="item">
+        <input type="checkbox" name="oldtask" value="<%=ele._id%>" onchange="this.form.submit()">
+        <p><%= ele.name %></p>
+      </div>
+      <input type="hidden" name="listname" value="<%=din%>">
+    </form>
+    <% }) %>
+
     <form class="item" action="/" method="post">
       <input type="text" name="task" placeholder="Add a New Task" autocomplete="off">
-      <button type="submit" name="submit">+</button>
+      <button type="submit" name="listname" value="<%=din%>" >+</button>
     </form>
   </div>
   <footer>
