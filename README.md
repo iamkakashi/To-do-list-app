@@ -1,12 +1,12 @@
 # To-do-list-app
 
-This is a simple to-do list web app made using  Node.js, express, EJS, CSS. 
-We can add new task and can cut completed tasks using checkbox. 
-It also display current date.
+This is a simple to-do list web app made using  Node.js, express, EJS, CSS and MongoDB. 
+We can make different types of to-do list for differnt purposes in which one can add new task and delete completed tasks using checkbox. 
 
-![Screenshot (375)](https://user-images.githubusercontent.com/69530279/128519196-ff18c5de-f149-48de-ba3e-a4d8adcda42a.png)
-![Screenshot (376)](https://user-images.githubusercontent.com/69530279/128519220-bae48167-a813-43be-a7bf-eebba3dc6310.png)
-![Screenshot (377)](https://user-images.githubusercontent.com/69530279/128519256-39209014-384e-4371-81e9-808299213a87.png)
-![Screenshot (378)](https://user-images.githubusercontent.com/69530279/128519274-32e0a1ec-8361-46f2-8997-9e032a82133f.png)
 
+![To-do list](https://user-images.githubusercontent.com/69530279/130077468-5ffc100f-c0b3-4dd9-b83b-5459c06fb298.png)
+![Home To-do list](https://user-images.githubusercontent.com/69530279/130077489-a6e96154-33fb-4124-98f9-a913c9afdd7e.png)
+![Work To-do list](https://user-images.githubusercontent.com/69530279/130077505-d895b5e7-0e3c-4428-affb-6776d47b6efc.png)
+![School To-do list](https://user-images.githubusercontent.com/69530279/130077525-eed38feb-a7c4-4fb6-8ce0-cbf536a5975c.png)
+![School To-do list](https://user-images.githubusercontent.com/69530279/130077542-a8e7311c-9655-44fc-8b8d-7d4446ce1818.png)
 
